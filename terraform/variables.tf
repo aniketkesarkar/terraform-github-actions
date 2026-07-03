@@ -41,3 +41,13 @@ variable "suzuki" {
 
   }
 }
+
+
+variable "suzuki2" {
+  description = "Map of virtual machine instances to create."
+  type        = map(string)
+  default = {
+    "vitara"  = "maruti"
+    "wagonr"  = "maruti"
+
+  }
