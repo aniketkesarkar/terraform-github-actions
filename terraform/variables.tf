@@ -51,3 +51,4 @@ variable "suzuki2" {
     "wagonr"  = "maruti"
 
   }
+}
